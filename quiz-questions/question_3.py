@@ -15,6 +15,7 @@ def remove_Es(a_string):
     # Write your code here
     for char in a_string:
         if char in "eE":
-            return a_string.replace(char,'')
+            a_string = a_string.replace(char,'')
+    return a_string
          
            
