@@ -23,7 +23,7 @@ def matrix_sum(a_matrix):
     """
     # Write your code here
     total = 0
-    for list in a_matrix:
-        for item in list:
+    for matrix_list in a_matrix:
+        for item in matrix_list:
             total += item
     return total
